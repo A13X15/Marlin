@@ -169,17 +169,17 @@
   #define Z_CS_PIN                       AUX2_06
 #endif
 
-#ifndef E0_STEP_PIN
-  #define E0_STEP_PIN                         26
+#ifndef Z2_STEP_PIN
+  #define Z2_STEP_PIN                         26
 #endif
-#ifndef E0_DIR_PIN
-  #define E0_DIR_PIN                          28
+#ifndef Z2_DIR_PIN
+  #define Z2_DIR_PIN                          28
 #endif
-#ifndef E0_ENABLE_PIN
-  #define E0_ENABLE_PIN                       24
+#ifndef Z2_ENABLE_PIN
+  #define Z2_ENABLE_PIN                       24
 #endif
-#ifndef E0_CS_PIN
-  #define E0_CS_PIN                      AUX2_08
+#ifndef Z2_CS_PIN
+  #define Z2_CS_PIN                      AUX2_08
 #endif
 
 #ifndef E1_STEP_PIN
@@ -412,10 +412,10 @@
     #define Z_SERIAL_RX_PIN              AUX2_10
   #endif
   #ifndef Z2_SERIAL_TX_PIN
-    #define Z2_SERIAL_TX_PIN                  -1
+    #define Z2_SERIAL_TX_PIN             AUX2_07
   #endif
   #ifndef Z2_SERIAL_RX_PIN
-    #define Z2_SERIAL_RX_PIN                  -1
+    #define Z2_SERIAL_RX_PIN             AUX2_09
   #endif
 
   #ifndef E0_SERIAL_TX_PIN
