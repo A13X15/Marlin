@@ -399,10 +399,10 @@
     #define Y_SERIAL_RX_PIN              AUX2_05
   #endif
   #ifndef Y2_SERIAL_TX_PIN
-    #define Y2_SERIAL_TX_PIN                  -1
+    #define Y2_SERIAL_TX_PIN             AUX2_06
   #endif
   #ifndef Y2_SERIAL_RX_PIN
-    #define Y2_SERIAL_RX_PIN                  -1
+    #define Y2_SERIAL_RX_PIN             AUX2_04
   #endif
 
   #ifndef Z_SERIAL_TX_PIN
