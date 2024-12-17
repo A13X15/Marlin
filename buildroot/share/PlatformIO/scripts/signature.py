@@ -2,9 +2,7 @@
 #
 # signature.py
 #
-import schema
-
-import subprocess,re,json,hashlib
+import schema, subprocess, re, json, hashlib
 from datetime import datetime
 from pathlib import Path
 from functools import reduce
@@ -366,7 +364,7 @@ f'''#
         with config_h.open('w') as outfile:
             filegrp = { 'Configuration.h':'config:basic', 'Configuration_adv.h':'config:advanced' }
             vers = build_defines["CONFIGURATION_H_VERSION"]
-            dt_string = datetime.now().strftime("%Y-%m-%d at %H:%M:%S")
+            dt_string = datetime.utcnow().strftime("%Y-%m-%d at %H:%M:%S")
 
             out_text = f'''/**
  * Config.h - Marlin Firmware distilled configuration
