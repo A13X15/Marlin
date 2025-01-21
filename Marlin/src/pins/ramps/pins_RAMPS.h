@@ -182,17 +182,17 @@
   #define Z2_CS_PIN                      AUX2_08
 #endif
 
-#ifndef E1_STEP_PIN
-  #define E1_STEP_PIN                         36
+#ifndef Y2_STEP_PIN
+  #define Y2_STEP_PIN                         36
 #endif
-#ifndef E1_DIR_PIN
-  #define E1_DIR_PIN                          34
+#ifndef Y2_DIR_PIN
+  #define Y2_DIR_PIN                          34
 #endif
-#ifndef E1_ENABLE_PIN
-  #define E1_ENABLE_PIN                       30
+#ifndef Y2_ENABLE_PIN
+  #define Y2_ENABLE_PIN                       30
 #endif
-#ifndef E1_CS_PIN
-  #define E1_CS_PIN                      AUX2_07
+#ifndef Y2_CS_PIN
+  #define Y2_CS_PIN                      AUX2_07
 #endif
 
 //
